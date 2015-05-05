@@ -168,7 +168,7 @@
 
             <ol>
               <li>Let the <dfn>list of entry objects</dfn> be the empty <a>PerformanceEntryList</a>.</li>
-              <li>Let the <dfn>set of filter properties</dfn> be the value of `entryProps`, or the empty dictionary if `entryProps` is omitted.</li>
+              <li>Let the <dfn>set of filter properties</dfn> be the <a href="http://www.w3.org/TR/WebIDL/#dfn-dictionary-member">dictionary members</a> of `entryProps`, or the empty set if `entryProps` is omitted.</li>
               <li>For each available <a>PerformanceEntry</a> object (<dfn>entryObject</dfn>), in chronological order with respect to <a href="#widl-PerformanceEntry-startTime">startTime</a>:</li>
                 <ol>
                 <li>For each _key_ and _value_ pair in <a>set of filter properties</a>:</li>
